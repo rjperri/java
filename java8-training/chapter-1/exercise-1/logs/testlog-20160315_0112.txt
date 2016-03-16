@@ -1,0 +1,3 @@
+Mar 15, 2016 1:12:42 PM TestClass main
+INFO: 
+This is logged information message. 
