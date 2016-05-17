@@ -1,0 +1,7 @@
+apply plugin:'java'
+
+task(runMain, dependsOn: 'classes', type: JavaExec) {
+    main = 'com.codetutr.HelloFlorld'
+    classpath = sourceSets.main.runtimeClasspath
+    args 'CodeTutr'
+}
