@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org">
+<head lang="en">
+    <title>Bank App</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+    <link href="http://cdn.jsdelivr.net/webjars/bootstrap/3.3.4/css/bootstrap.min.css"
+        th:href="@{/webjars/bootstrap/3.3.4/css/bootstrap.min.css}"
+        rel="stylesheet" media="screen" />
+
+    <script src="http://cdn.jsdelivr.net/webjars/jquery/2.1.4/jquery.min.js"
+        th:src="@{/webjars/jquery/2.1.4/jquery.min.js}"></script>
+    
+    <link href="../static/css/bank.css"
+        th:href="@{css/bank.css}" rel="stylesheet" media="screen"/>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <img src="../static/images/IMG_1183.jpg" width="300"
+            th:src="@{images/IMG_1183.jpg}"/>
+        <h1>Hello</h1>
+        <h2>Felllow Bank peeps</h2>
+    </div>
+</div>
+</body>
+</html>
